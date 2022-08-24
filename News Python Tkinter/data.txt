@@ -1,0 +1,28 @@
+API KEY by newsapi.org is = 
+f036c6bed24e482ab045a476154910d1
+
+
+Use cases
+All articles about Tesla from the last month, sorted by recent first:
+https://newsapi.org/v2/everything?q=tesla&from=2022-02-07&sortBy=publishedAt&apiKey=f036c6bed24e482ab045a476154910d1
+
+Top business headlines in the US right now
+https://newsapi.org/v2/top-headlines?country=us&category=business&apiKey=f036c6bed24e482ab045a476154910d1
+
+Top headlines in the India right now
+https://newsapi.org/v2/top-headlines?country=in&apiKey=f036c6bed24e482ab045a476154910d1
+
+Top headlines from TechCrunch right now
+https://newsapi.org/v2/top-headlines?sources=techcrunch&apiKey=f036c6bed24e482ab045a476154910d1
+
+
+
+Keywords and phrases
+ Search with singular keywords, or surround complete phrases with quotation marks for exact-match: q=tesla or q="elon musk"
+ Specify words which must appear in articles, and words that must not, to remove irrelevent results: q=gamestop +stonks -sell
+ Boolean operators AND / OR / NOT and brackets are supported so you can do this: q=(crypto AND bitcoin) NOT ethereum
+ Limit your search specifically within titles, or content: qInTitle="title search"
+Dates and timeframes
+ Interested in articles less than 2 weeks old? from=2022-02-21
+ Focus on news from a specific period in the past from=2020-02-19&to=2020-03-05
+ Or leave blank to get the up-to-the-minute latest news
